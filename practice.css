@@ -13,26 +13,62 @@ body {
     text-decoration: none;
     background-color: orange;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 10px;
     color: white;
     font-weight: 600;
     background-image: linear-gradient(orange, tomato);
+
 
 
 }
 
 .container-main {
     display: flex;
+    margin-bottom: 100px;
+
+
 }
 
-.container-main .half-width {
-    width: 50;
-    margin-left: 20px;
+.half-width {
+    width: 50%;
 
-    margin-top: 30px;
+
+
+
     padding: 10px;
+
+
+}
+
+
+
+.mid-div {
+    margin-top: 160px;
+    margin-left: 20px;
 }
 
 .container-main .half-width img {
     width: 70%;
+
+}
+
+.bottom {
+    margin-bottom: 40px;
+}
+
+.container-main2 {
+    background-image: url(./images/shapes/Frame\ 57.jpg);
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container-main2 .half-width img {
+    display: block;
+    margin: 0 auto;
+}
+
+.centering {
+    text-align: center;
 }
